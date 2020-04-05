@@ -8,6 +8,7 @@ def join_nested_strings(src)
     while col_i < src[row_i].count do
       if src[row_i][col_i].is_a? String 
        p total = src[row_i][col_i]
+     end
       col_i += 1
     end
     row_i += 1
