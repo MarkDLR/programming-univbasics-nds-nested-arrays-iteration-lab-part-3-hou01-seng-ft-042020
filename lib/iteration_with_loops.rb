@@ -13,5 +13,5 @@ def join_nested_strings(src)
     end
     row_i += 1
   end
-  %w[total]
+  total
 end
